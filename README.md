@@ -1,7 +1,7 @@
 <h1 align="center"> Card Produto </h1>
 
 <p align="center">
-Projeto desenvolvido no desafio do #boraCodar da Rocketseat, o objetivo era desenvolver um car de produto.<br/>
+Projeto desenvolvido no desafio do #boraCodar da Rocketseat, o objetivo era desenvolver um card de produto.<br/>
 </p>
 
 <p align="center">
