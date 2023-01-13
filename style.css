@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: 'Crimson Pro', serif;
+    --font-subtitle: 'Lato', sans-serif;
+    --text-color:#271A45;
+    --background-color-body: #D9CDF7;
+    --color-border-button: #271A45;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+
+    height: 100vh;
+    background-color: var(--background-color-body);
+}
+
+main .product {
+    position: relative;
+    width: 450px;
+}
+
+.product #btn-360 {
+    cursor: pointer;
+}
+
+.product .product-preview {
+    width: 100%;
+}
+
+
+.product #btn-360 {
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
+
+.information p, h1, h2 {
+    padding: 6px 0px;
+}
+
+.information .cod-item {
+    font-family: var(--font-subtitle);
+    font-weight: 300;
+    font-size: 14px;
+
+    color: var(--text-color);
+}
+
+.information .product-name {
+    font-family: var(--font-title);
+    font-size: 45px;
+    color: var(--text-color);
+}
+
+.information .product-price {
+    font-family: var(--font-subtitle);
+    font-weight: 400;
+    font-size: 18px;
+
+    opacity: 67%;
+}
+
+.information button {
+    font-family: var(--font-subtitle);
+    font-size: 14px;
+    padding: 8px 16px;
+    color: var(--text-color);
+
+    background-color: transparent;
+    border: 1px solid var(--color-border-button);
+    border-radius: 100px;
+
+    margin-top: 8px;
+}
+
+.information button:hover {
+    cursor: pointer;
+    font-weight: 600;
+    
+    background-color: var(--text-color);
+    color: white;
+}
