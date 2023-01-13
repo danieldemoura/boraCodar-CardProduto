@@ -45,7 +45,7 @@ main .product {
 }
 
 .information {
-    text-align: center;
+    padding: 0px 10px;
 }
 
 .information p, h1, h2 {
@@ -94,3 +94,4 @@ main .product {
     background-color: var(--text-color);
     color: white;
 }
+
